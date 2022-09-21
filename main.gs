@@ -40,5 +40,5 @@ function load_drive() {
     }
   }
 
-  return {drive_files:drive_files,audio_files:audio_files};
+  return {files:filesArray,audio_files:audio_files};
 }
