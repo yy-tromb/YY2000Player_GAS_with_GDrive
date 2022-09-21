@@ -10,7 +10,6 @@ function show_list(data) {
   if (!!data.files===false || !!data.audio_files===false) {
     throw new Error("Error - GDrive or Audio file are none");
   } else {
-    console.log(data);
     for (let file of data.audio_files) {
       const li = document.createElement("li");
       li.textContent=file.name;
