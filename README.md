@@ -1,2 +1,2 @@
-# YY2000Player_on_GDrive
-Video/Audio Player on Google Drive
+# YY2000Player_GAS_with_GDrive
+Video/Audio Player on GAS with Google Drive
