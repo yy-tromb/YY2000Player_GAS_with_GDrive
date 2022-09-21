@@ -6,6 +6,7 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 function show_list(data) {
+   console.log(data);
   if (!!data.drive_files || !!data.audio_files) {
     alert("Error - GDrive or Audio file are none");
     return false;
