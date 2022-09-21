@@ -1,2 +1,4 @@
 .vscode/
 /gstojs.bat
+*.css
+*.js
