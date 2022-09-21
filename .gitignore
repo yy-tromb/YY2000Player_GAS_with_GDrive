@@ -2,3 +2,5 @@
 /gstojs.bat
 /main.js
 /.clasp.json
+*.css
+*.js
