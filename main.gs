@@ -36,7 +36,7 @@ function load_drive() {
   for (let file of filesArray) {
     const ext = file.getName().split(".").pop();
     if (audio_ext.includes(ext)) {
-      audio_files.push(file);
+      audio_files.push({name:file.getName()});
     }
   }
 

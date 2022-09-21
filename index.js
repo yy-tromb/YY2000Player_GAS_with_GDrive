@@ -13,6 +13,7 @@ function show_list(data) {
     console.log(data);
     for (let file of data.audio_files) {
       const li = document.createElement("li");
+      li.textContent=file.name;
       ul.appendChild(li);
     }
   }
