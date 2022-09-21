@@ -1,5 +1,5 @@
 const gas = google.script;
-const ul = document.getElementsByName("ul")[0];
+const ul = document.getElementsByTagName("ul")[0];
 
 window.addEventListener("DOMContentLoaded", () => {
   gas.run.withSuccessHandler(show_list).load_drive();
