@@ -9,7 +9,6 @@ function doGet() {
   return htmlOutput;
 }
 
-const drive = DriveApp.getRootFolder();
 
 const audio_ext = [
   "wav",
@@ -26,7 +25,7 @@ const audio_ext = [
 ];
 
 function load_drive() {
-  const drive_files = drive.getFiles();
+  const drive_files = DriveApp.getFiles();
   const filesArray = [];
   while (drive_files.hasNext()) {
     const file = drive_files.next();
